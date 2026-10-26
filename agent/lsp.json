@@ -1,0 +1,44 @@
+{
+  "installMode": "prompt",
+  "warmup": true,
+  "servers": {
+    "vtsls": {
+      "filetypes": []
+    },
+    "pyright": {
+      "command": [
+        "/home/mintusr/.nvm/versions/node/v24.20.0/bin/node",
+        "/home/mintusr/.pi/agent/lsp/packages/pyright/node_modules/pyright/langserver.index.js",
+        "--stdio"
+      ]
+    },
+    "tsls": {
+      "id": "tsls",
+      "displayName": "TypeScript Language Server (ts-ls)",
+      "filetypes": [],
+      "rootMarkers": ["package.json", "tsconfig.json", "jsconfig.json", "pnpm-workspace.yaml", "yarn.lock", ".git"],
+      "install": {
+        "type": "npm",
+        "packages": {
+          "typescript": "6.0.3",
+          "typescript-language-server": "6.0.2"
+        },
+        "bin": "typescript-language-server"
+      },
+      "command": [
+        "/home/mintusr/.nvm/versions/node/v24.20.0/bin/node",
+        "/home/mintusr/.pi/agent/lsp/packages/tsls/node_modules/typescript-language-server/lib/cli.mjs",
+        "--stdio"
+      ],
+      "settings": {},
+      "initializationOptions": {
+        "hostInfo": "pi",
+        "tsserver": {
+          "useSyntaxServer": "never"
+        }
+      },
+      "lazy": true
+    }
+  }
+}
+

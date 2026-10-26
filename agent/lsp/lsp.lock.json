@@ -1,0 +1,32 @@
+{
+  "servers": {
+    "pyright": {
+      "installer": "npm",
+      "resolvedCommand": [
+        "/home/mintusr/.pi/agent/lsp/bin/pyright-langserver",
+        "--stdio"
+      ],
+      "installedAt": "2026-10-24T15:13:45.291Z",
+      "packages": {
+        "pyright": "1.1.410"
+      },
+      "packageDir": "/home/mintusr/.pi/agent/lsp/packages/pyright",
+      "binDir": "/home/mintusr/.pi/agent/lsp/bin"
+    },
+    "tsls": {
+      "installer": "npm",
+      "resolvedCommand": [
+        "/home/mintusr/.pi/agent/lsp/bin/typescript-language-server",
+        "/home/mintusr/.pi/agent/lsp/packages/tsls/node_modules/typescript-language-server/lib/cli.mjs",
+        "--stdio"
+      ],
+      "installedAt": "2026-10-24T16:12:06.012Z",
+      "packages": {
+        "typescript": "6.0.3",
+        "typescript-language-server": "6.0.2"
+      },
+      "packageDir": "/home/mintusr/.pi/agent/lsp/packages/tsls",
+      "binDir": "/home/mintusr/.pi/agent/lsp/bin"
+    }
+  }
+}

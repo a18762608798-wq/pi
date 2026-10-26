@@ -1,0 +1,21 @@
+# --- secrets: never commit ---
+agent/auth.json
+agent/mcp-auth.json
+agent/provider-keys.json
+
+# --- runtime / caches (regenerated locally) ---
+agent/sessions/
+agent/npm/
+agent/bin/
+agent/lsp/bin/
+agent/lsp/cache/
+agent/lsp/logs/
+agent/lsp/packages/
+agent/lsp/pids/
+agent/lsp/registry/
+agent/lsp/workspaces/
+agent/models-store.json
+
+# --- local backups / browser profiles ---
+agent.bak.0.4.3/
+.playwright-mcp/

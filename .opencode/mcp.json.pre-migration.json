@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "zotero": {
+      "command": "/home/mintusr/.local/bin/zotero-mcp",
+      "transport": "stdio",
+      "lifecycle": "eager",
+      "env": {
+        "FASTMCP_CHECK_FOR_UPDATES": "off",
+        "NO_PROXY": "127.0.0.1,localhost",
+        "ZOTERO_MCP_TOOLSETS": "pdf-geometry,discovery"
+      }
+    }
+  }
+}

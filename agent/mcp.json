@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "zotero": {
+      "command": "/home/mintusr/.local/bin/zotero-mcp",
+      "transport": "stdio",
+      "exposure": "deferred",
+      "env": {
+        "FASTMCP_CHECK_FOR_UPDATES": "off",
+        "NO_PROXY": "127.0.0.1,localhost",
+        "ZOTERO_MCP_TOOLSETS": "libraries,search-admin,pdf-geometry,discovery",
+        "ZOTERO_LOCAL": "true"
+      },
+      "description": "Zotero 文献库管理、检索、PDF 与元数据"
+    },
+    "context7": {
+      "url": "https://mcp.context7.com/mcp",
+      "description": "Context7 库文档查询（官方远程 MCP，resolve-library-id / query-docs）",
+      "enabled": true,
+      "exposure": "deferred"
+    },
+    "playwright": {
+      "command": "/home/mintusr/.nvm/versions/node/v24.20.0/bin/node",
+      "args": [
+        "/home/mintusr/.nvm/versions/node/v24.20.0/lib/node_modules/@playwright/mcp/cli.js",
+        "--browser",
+        "chromium",
+        "--headless"
+      ],
+      "transport": "stdio",
+      "enabled": true,
+      "exposure": "deferred",
+      "description": "浏览器自动化（chromium，headless）"
+    }
+  }
+}
