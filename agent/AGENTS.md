@@ -11,6 +11,10 @@
 * 需要找书、教材、讲义入库时，使用 `zotero-book-hunter` skill（先查 ISBN 再入库）。
 * 只在库内检索已有文献时，用 Zotero 语义搜索，不走 hunter。
 
+## MCP 工具调用
+
+* deferred 服务 `tool_search` 搜不到时先直接调用，能调通就是已加载；报 not found 再用 `tool_search` 载回。不改配置、不杀进程、不绕过 MCP 直读库。
+
 ## 文件删除与移动
 
 * 删文件、移文件优先用 git 感知命令（`git rm` / `git mv`），而不是裸 `rm` / `mv`：删除进暂存可回溯，移动保留历史，重命名不会断 `git log --follow`。
