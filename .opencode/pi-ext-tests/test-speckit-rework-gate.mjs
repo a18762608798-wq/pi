@@ -236,8 +236,8 @@ assert(MODIFY_RE.test("fix login bug") === true && MODIFY_RE.test("今天天气�
 // 可靠词法分析，不再与原正则做字面 parity；删除本身是有意偏离，见 handoff）。
 {
   const read = (await import("node:fs")).readFileSync;
-  const orig = read("/home/mintusr/.config/opencode/plugins/speckit-rework-gate.ts", "utf8");
-  const port = read("/home/mintusr/.pi/agent/extensions/speckit-rework-gate.ts", "utf8");
+  const orig = read("/home/dell/.config/opencode/plugins/speckit-rework-gate.ts", "utf8");
+  const port = read("/home/dell/.pi/agent/extensions/speckit-rework-gate.ts", "utf8");
   for (const name of ["OFFICIAL_RE", "MODIFY_RE"]) {
     const re = new RegExp(`(?:export\\s+)?const ${name}\\s*=\\s*(/.*?/;?)`, "s");
     const a = (orig.match(re) || [])[1];

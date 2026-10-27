@@ -13,7 +13,7 @@ assert(handlers.size === 1 && handlers.has("before_agent_start"), "only before_a
 assert(handlers.get("before_agent_start").length === 1, "exactly one before_agent_start handler");
 
 // Verbatim equivalence with the OpenCode original: extract its TS string literal.
-const orig = readFileSync("/home/mintusr/.config/opencode/plugins/formula-style.ts", "utf8");
+const orig = readFileSync("/home/dell/.config/opencode/plugins/formula-style.ts", "utf8");
 const m = orig.match(/const text =\s*"((?:[^"\\]|\\.)*)"/s);
 assert(m !== null, "original text literal found");
 const expected = m[1].replace(/\\\\/g, "\\").replace(/\\"/g, '"');

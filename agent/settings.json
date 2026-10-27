@@ -2,7 +2,7 @@
   "lastChangelogVersion": "1.4.0",
   "theme": "dark",
   "defaultProvider": "opencode-go",
-  "defaultModel": "muse-spark-1.3-contributor",
+  "defaultModel": "deepseek-v4.1-flash",
   "defaultThinkingLevel": "xhigh",
   "tuiMode": "regular",
   "modelThinkingLevels": {
@@ -30,6 +30,6 @@
     "npm:pi-workspace-history"
   ],
   "workspaceHistory": {
-    "storageDir": "/home/mintusr/.cache/pi-workspace-history"
+    "storageDir": "/home/dell/.cache/pi-workspace-history"
   }
 }

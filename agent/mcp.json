@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "zotero": {
-      "command": "/home/mintusr/.local/bin/zotero-mcp",
+      "command": "/home/dell/.local/bin/zotero-mcp",
       "transport": "stdio",
       "exposure": "deferred",
       "env": {
@@ -19,9 +19,9 @@
       "exposure": "deferred"
     },
     "playwright": {
-      "command": "/home/mintusr/.nvm/versions/node/v24.20.0/bin/node",
+      "command": "/home/dell/.local/share/pi-node/current/bin/node",
       "args": [
-        "/home/mintusr/.nvm/versions/node/v24.20.0/lib/node_modules/@playwright/mcp/cli.js",
+        "/home/dell/.local/share/pi-node/current/lib/node_modules/@playwright/mcp/cli.js",
         "--browser",
         "chromium",
         "--headless"

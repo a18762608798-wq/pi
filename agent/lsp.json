@@ -7,8 +7,8 @@
     },
     "pyright": {
       "command": [
-        "/home/mintusr/.nvm/versions/node/v24.20.0/bin/node",
-        "/home/mintusr/.pi/agent/lsp/packages/pyright/node_modules/pyright/langserver.index.js",
+        "/home/dell/.local/share/pi-node/current/bin/node",
+        "/home/dell/.pi/agent/lsp/packages/pyright/node_modules/pyright/langserver.index.js",
         "--stdio"
       ]
     },
@@ -26,8 +26,8 @@
         "bin": "typescript-language-server"
       },
       "command": [
-        "/home/mintusr/.nvm/versions/node/v24.20.0/bin/node",
-        "/home/mintusr/.pi/agent/lsp/packages/tsls/node_modules/typescript-language-server/lib/cli.mjs",
+        "/home/dell/.local/share/pi-node/current/bin/node",
+        "/home/dell/.pi/agent/lsp/packages/tsls/node_modules/typescript-language-server/lib/cli.mjs",
         "--stdio"
       ],
       "settings": {},

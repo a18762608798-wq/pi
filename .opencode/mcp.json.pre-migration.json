@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "zotero": {
-      "command": "/home/mintusr/.local/bin/zotero-mcp",
+      "command": "/home/dell/.local/bin/zotero-mcp",
       "transport": "stdio",
       "lifecycle": "eager",
       "env": {
