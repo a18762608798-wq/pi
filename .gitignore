@@ -29,3 +29,9 @@ __pycache__/
 
 # --- skill generated and maintained by CCGUI ---
 agent/skills/ccgui-plugin-creator/
+
+# --- local runtime: pi-web server state & pi-acp session map ---
+agent/pi-web-run/
+agent/pi-web-session-index.json
+agent/pi-web-session-state.json
+pi-acp/
