@@ -19,3 +19,13 @@ agent/models-store.json
 # --- local backups / browser profiles ---
 agent.bak.0.4.3/
 .playwright-mcp/
+
+# --- local Pi installation / generated runtime ---
+agent/install/
+.ccgui/
+*.log
+__pycache__/
+*.py[cod]
+
+# --- skill generated and maintained by CCGUI ---
+agent/skills/ccgui-plugin-creator/

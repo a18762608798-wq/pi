@@ -2,6 +2,9 @@
   "mcpServers": {
     "zotero": {
       "command": "/home/dell/.local/bin/zotero-mcp",
+      "args": [
+        "serve"
+      ],
       "transport": "stdio",
       "exposure": "deferred",
       "env": {
