@@ -32,7 +32,7 @@
       "transport": "stdio",
       "enabled": true,
       "exposure": "deferred",
-      "description": "浏览器自动化（chromium，headless）"
+      "description": "Playwright API 等专项浏览器自动化（当前 Chromium headless）；日常网页操作优先 agent-browser，不自动接管失败任务"
     }
   }
 }
