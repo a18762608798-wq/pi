@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "1.4.0",
+  "lastChangelogVersion": "1.5.0",
   "theme": "dark",
   "defaultProvider": "opencode-go",
   "defaultModel": "muse-spark-1.3-contributor",
@@ -38,5 +38,8 @@
   ],
   "workspaceHistory": {
     "storageDir": "/home/dell/.cache/pi-workspace-history"
+  },
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:pi-workspace-history\",\"scope\":\"user\"}": "0.5.2"
   }
 }
