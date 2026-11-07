@@ -32,14 +32,5 @@
       }
     }
   },
-  "packages": [
-    "npm:pi-lsp-adapter",
-    "npm:pi-workspace-history"
-  ],
-  "workspaceHistory": {
-    "storageDir": "/home/dell/.cache/pi-workspace-history"
-  },
-  "extensionChangelogVersions": {
-    "{\"source\":\"npm:pi-workspace-history\",\"scope\":\"user\"}": "0.5.2"
-  }
+  "packages": []
 }

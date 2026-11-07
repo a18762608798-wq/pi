@@ -21,18 +21,11 @@
       "enabled": true,
       "exposure": "deferred"
     },
-    "playwright": {
-      "command": "/home/dell/.local/share/pi-node/current/bin/node",
-      "args": [
-        "/home/dell/.local/share/pi-node/current/lib/node_modules/@playwright/mcp/cli.js",
-        "--browser",
-        "chromium",
-        "--headless"
-      ],
-      "transport": "stdio",
-      "enabled": true,
-      "exposure": "deferred",
-      "description": "Playwright API 等专项浏览器自动化（当前 Chromium headless）；日常网页操作优先 agent-browser，不自动接管失败任务"
+    "gamma": {
+      "url": "http://127.0.0.1:9001/mcp"
+    },
+    "gamma_write": {
+      "url": "http://127.0.0.1:9001/mcp-write"
     }
   }
 }
