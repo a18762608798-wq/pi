@@ -1,20 +1,5 @@
 {
   "mcpServers": {
-    "zotero": {
-      "command": "/home/dell/.local/bin/zotero-mcp",
-      "args": [
-        "serve"
-      ],
-      "transport": "stdio",
-      "exposure": "deferred",
-      "env": {
-        "FASTMCP_CHECK_FOR_UPDATES": "off",
-        "NO_PROXY": "127.0.0.1,localhost",
-        "ZOTERO_MCP_TOOLSETS": "libraries,search-admin,pdf-geometry,discovery",
-        "ZOTERO_LOCAL": "true"
-      },
-      "description": "Zotero 文献库管理、检索、PDF 与元数据"
-    },
     "context7": {
       "url": "https://mcp.context7.com/mcp",
       "description": "Context7 库文档查询（官方远程 MCP，resolve-library-id / query-docs）",

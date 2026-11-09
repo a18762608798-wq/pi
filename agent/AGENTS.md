@@ -18,12 +18,6 @@
 * 删除文件或目录一律用 `mv` 移到回收站，不论是否由 Git 管理，临时文件也不例外；禁止直接使用 `rm` 或 `git rm`，并避免覆盖回收站中的同名内容。
 * 非删除用途的项目内移动、重命名仍优先用 `git mv`。
 
-## 技能调用
-
-* 需要找论文、补参考文献、给任务配文献时，使用 `zotero-paper-hunter` skill（arXiv/OpenAlex API 优先发现候选，网页检索补充、arXiv/出版商页核实元数据，全经 Zotero MCP 去重入库到主题 `paper/inbox`）。
-* 需要找书、教材、讲义入库时，使用 `zotero-book-hunter` skill（先查 ISBN 再入库）。
-* 只在库内检索已有文献时，用 Zotero 语义搜索，不走 hunter。
-
 ## MCP 工具调用
 
 * deferred 服务 `tool_search` 搜不到时先直接调用，能调通就是已加载；报 not found 再用 `tool_search` 载回。不改配置、不杀进程、不绕过 MCP 直读库。
