@@ -4,7 +4,7 @@
   "defaultProvider": "opencode-go",
   "defaultModel": "deepseek-v4.1-flash",
   "defaultThinkingLevel": "xhigh",
-  "tuiMode": "fullscreen",
+  "tuiMode": "regular",
   "modelThinkingLevels": {
     "opencode-go/deepseek-v4.1-flash": "max",
     "opencode-go/gemini-4-argon": "medium"
