@@ -1,21 +1,25 @@
 {
   "lastChangelogVersion": "1.5.2",
   "theme": "dark",
-  "defaultProvider": "opencode-go",
-  "defaultModel": "deepseek-v4.1-flash",
-  "defaultThinkingLevel": "xhigh",
+  "defaultProvider": "openai",
+  "defaultModel": "gpt-6.2-sol",
+  "defaultThinkingLevel": "medium",
   "tuiMode": "regular",
   "modelThinkingLevels": {
-    "opencode-go/deepseek-v4.1-flash": "max",
-    "opencode-go/gemini-4-argon": "medium"
+    "openai/gpt-6.2-sol": "medium"
   },
   "enabledModels": [
-    "opencode-go/deepseek-v4.1-flash",
-    "opencode-go/gemini-4-argon",
-    "openai/gpt-6.1-sol",
-    "openai/gpt-6.1-terra"
+    "openai/gpt-6.2-sol",
+    "openai/gpt-6.2-astra",
+    "antigravity/claude-opus-5-5",
+    "antigravity/claude-sonnet-5-5",
+    "antigravity/gemini-4-hydrogen",
+    "antigravity/gemini-4-neon",
+    "antigravity/gemini-4-argon",
+    "ollama/nanbeige4.3:33b-q4_K_M",
+    "nonelinear/gemini-4-carbon"
   ],
-  "defaultProjectTrust": "ask",
+  "defaultProjectTrust": "always",
   "defaultTools": [
     "read",
     "bash",
@@ -26,6 +30,8 @@
     "enabled": true,
     "modelOverrides": {}
   },
-  "packages": [],
+  "packages": [
+    "npm:pi-antigravity"
+  ],
   "deviceId": "5b20dd32-a527-4a27-ae87-12cd1246e424"
 }

@@ -2,6 +2,7 @@
 agent/auth.json
 agent/mcp-auth.json
 agent/provider-keys.json
+agent/antigravity-accounts.json
 
 # --- runtime / caches (regenerated locally) ---
 agent/sessions/
@@ -18,6 +19,9 @@ agent/models-store.json
 
 # --- local backups / browser profiles ---
 agent.bak.0.4.3/
+*.bak
+*.bak.*
+*.bak-*
 .playwright-mcp/
 
 # --- local Pi installation / generated runtime ---
