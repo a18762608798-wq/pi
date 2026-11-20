@@ -7,11 +7,18 @@
 
 ## 命令与工具缺失
 
-* 如果缺少所需的 Bash 命令或工具，可直接使用 `sudo` 安装或执行；不要用 Python 等其他工具强行绕过。
+* 系统级工具缺失（如需 `sudo` / `apt` 安装的 Bash 命令或工具）：可直接使用 `sudo` 安装或执行，不要用 Python 等其他工具强行绕过。
+* 项目级 / 非 `sudo` 环境可自行安装（如 `pip`、`uv`、`conda`、`julia Pkg`、`npm`、`cargo` 等用户空间包管理）：可在项目环境内自行安装，无需等待用户操作。
 
 ## Bash 命令组织
 
 * 只读检查与文件修改、Git 暂存、清理操作分开调用；不要把无关步骤拼成长命令。临时文件同样遵循回收站规则，不得为减少确认而绕过审批。
+
+## 技能调用
+
+* 需要找论文、补参考文献、给任务配文献时，使用 `gamma-paper-hunter` skill（学术 API/网页检索发现候选，arXiv/出版商页核实元数据，经 Gamma MCP 去重入库到主题 `paper/inbox`）。
+* 需要找书、教材、讲义入库时，使用 `gamma-book-hunter` skill（先查 ISBN 再入库，经 Gamma MCP）。
+* 只在库内检索已有文献时，用 Gamma MCP 的 `search_library` / `list_pages`，不走 hunter。
 
 ## 文件删除与移动
 
