@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "1.5.2",
+  "lastChangelogVersion": "1.6.0",
   "theme": "dark",
   "defaultProvider": "openai",
   "defaultModel": "gpt-6.2-sol",
@@ -9,15 +9,7 @@
     "openai/gpt-6.2-sol": "medium"
   },
   "enabledModels": [
-    "openai/gpt-6.2-sol",
-    "openai/gpt-6.2-astra",
-    "antigravity/claude-opus-5-5",
-    "antigravity/claude-sonnet-5-5",
-    "antigravity/gemini-4-hydrogen",
-    "antigravity/gemini-4-neon",
-    "antigravity/gemini-4-argon",
-    "ollama/nanbeige4.3:33b-q4_K_M",
-    "nonelinear/gemini-4-carbon"
+    "openai/gpt-6.2-sol"
   ],
   "defaultProjectTrust": "always",
   "defaultTools": [
@@ -30,8 +22,6 @@
     "enabled": true,
     "modelOverrides": {}
   },
-  "packages": [
-    "npm:pi-antigravity"
-  ],
+  "packages": [],
   "deviceId": "5b20dd32-a527-4a27-ae87-12cd1246e424"
 }

@@ -6,9 +6,6 @@
       "enabled": true,
       "exposure": "deferred"
     },
-    "gamma": {
-      "url": "http://127.0.0.1:9001/mcp"
-    },
     "gamma_write": {
       "url": "http://127.0.0.1:9001/mcp-write"
     }
